@@ -69,7 +69,9 @@ A weboldal a következő címen lesz elérhető:
 
 ## 🚀 Publikálás a Render.com-on (Ingyenes)
 
-A projekt tartalmazza a Render konfigurációs fájlját (`render.yaml`).
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/zsirafmix/geprefel)
+
+A projekt tartalmazza a Render konfigurációs fájlját (`render.yaml`), így akár egyetlen kattintással elindítható!
 
 ### Telepítés lépései a Render.com-on:
 1. Jelentkezz be a **[dashboard.render.com](https://dashboard.render.com/)** oldalon (akár a GitHub fiókoddal).
