@@ -64,3 +64,22 @@ A weboldal a következő címen lesz elérhető:
 3. A bal oldali menüben válaszd a **Pages** menüpontot.
 4. A **Build and deployment** rész alatt a **Source** legördülő menüben válaszd a **GitHub Actions** lehetőséget.
 5. Kész! A GitHub Actions workflow azonnal lefut és közzéteszi az oldalt!
+
+---
+
+## 🚀 Publikálás a Render.com-on (Ingyenes)
+
+A projekt tartalmazza a Render konfigurációs fájlját (`render.yaml`).
+
+### Telepítés lépései a Render.com-on:
+1. Jelentkezz be a **[dashboard.render.com](https://dashboard.render.com/)** oldalon (akár a GitHub fiókoddal).
+2. Kattints a jobb felső **New +** gombra, majd válaszd a **Static Site** lehetőséget.
+3. Válaszd ki a GitHub fiókodat és a **`geprefel`** repository-t (ha nem látod, kattints a *Configure account* linkre és engedélyezd a hozzáférést a `geprefel` repóhoz).
+4. A beállításoknál a következők kellenek:
+   * **Name:** `geprefel` (vagy amit szeretnél)
+   * **Branch:** `main`
+   * **Build Command:** `npm run build`
+   * **Publish Directory:** `dist`
+5. Kattints a **Create Static Site** gombra!
+
+Néhány másodperc múlva a Render lefordítja és elindítja a weboldalt egy ingyenes, biztonságos HTTPS címen (pl.: `https://geprefel.onrender.com`).
